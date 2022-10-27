@@ -1,0 +1,28 @@
+MySQL Shell commands
+
+DATABASES statements:
+  Connect to MySQL server from Terminal:
+    $ mysql -u username -p
+      - Where username is root (or any mysql username we have).
+      - -p prompts for password.
+
+  List All existing DBs:
+    mysql> show databases;
+        - this command display all existing databases.
+
+  Create new DB:
+    mysql>CREATE DATABASE <database_name>;
+      - Creates a new database, where <database> is our custom database 
+        name.
+      - Databases naming convention is snake_case. 
+
+  Drop/Remove DB:
+    mysql>DROP DATABASE <database_name>;
+      - Deletes a database.    
+
+  Switch/use to DB:
+    mysql>USE <database>;
+      - This will instruct MySQL to use this specific database.
+
+    mysql>SELECT database();
+      - Display current used database;

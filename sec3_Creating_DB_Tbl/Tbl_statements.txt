@@ -1,0 +1,48 @@
+
+TABLES statements:
+  Create new table:
+    mysql> CREATE TABLE <table_name>
+    (
+      column_1 data_type(),
+      column_2 data_type()
+    );
+
+    List all tables in a DB:
+    mysql>SHOW TABLES;
+    or:
+    mysql>DESC <table_name>;
+      - Lists an specific table in DB.
+
+    List a specific column:
+    mysql>SHOW COLUMN FROM <table_name>;
+
+    DELETE/DROP table:
+    mysql>DROP TABLE <table_name>;
+
+    INSERT data into table:
+      mysql>INSERT INTO <table_name> (column_1, column_2)
+      VALUES 
+      (
+        'value1', 'value12');
+
+    LIST table columns data
+    mysql>SELECT * FROM <table_name>;
+
+
+    NOT NULL
+
+    CREATE TABLE cats 
+    (
+      name VARCHAR(50) NOT NULL,
+      age INT NOT NULL,
+      description VARCHAR(100)
+    );
+
+    CREATE TABLE cats 
+    (
+      ID INT NOT NULL AUTO_INCREMENT,
+      Name VARCHAR(50) NOT NULL,
+      Desc VARCHAR(100) DEFAULT 'Some text',
+      PRIMARY KEY (ID)
+    );
+    
