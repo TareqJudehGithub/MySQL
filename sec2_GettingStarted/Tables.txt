@@ -1,0 +1,5 @@
+tables
+ - Tables holds the data, whiles DBs holds tables.
+ - A table is a collection of related data held in a structured
+  format within a database.
+

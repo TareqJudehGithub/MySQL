@@ -2,6 +2,7 @@ What Is A Database?
  - A Database is a collection of data.
  - A structured set of of computerized data with an accessible interface.
  - A method for accessing and manipulating data.
+ - A relational DBs contains tables.
 
 Relational Database Management System (RDBMS)
  - RDBMS is a way to access and connect the the database.
@@ -12,4 +13,3 @@ MySQL vs SQL
  - SQL is the language/syntax we used when we 'talk' to the database.
  - SQL is a way we access and manipulate data.
  - MySQL (an RDBMS) uses SQL to interact with (or implement) the database.
- 
